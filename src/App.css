@@ -1,0 +1,10 @@
+.MuiGrid-grid-container {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 799px){
+    .MuiGrid-grid-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
